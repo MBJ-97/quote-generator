@@ -1,11 +1,9 @@
 import React from 'react';
-import { useState } from 'react';
 
 export default function Modal({onShowChange, shrLink}) {
 
     const handleClick = () => {
-        var h = onShowChange(false);
-       //console.log(onShowChange);
+        onShowChange(false);
     }
     return ( 
         

@@ -121,7 +121,6 @@
 
 .modal {
   position: fixed;
-  /*width: 700px;*/
   left: 0;
   right: 0;
   top: 0;
@@ -130,6 +129,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10px;
 }
 .modal-content {
   width: 500px;
