@@ -8,7 +8,7 @@ export default function ShareButton({advice}) {
     const share = () => {
         var l = advice;
         var h = l.split(' ').join('+');
-        let link = `quote-gen-m.netlify.app/${h}`;
+        let link = `quote-gen-m.netlify.app/shared/${h}`;
         
         console.log(link) // construct the link.
         setShow(true);
