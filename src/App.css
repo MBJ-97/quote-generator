@@ -120,6 +120,7 @@
 /* Modal styles */
 
 .modal {
+  padding: 0 10px;
   position: fixed;
   left: 0;
   right: 0;
@@ -133,6 +134,7 @@
 .modal-content {
   width: 500px;
   background-color: #fff;
+  padding: 0 10px;
 }
 .modal-header, .modal-footer {
   padding: 10px;
