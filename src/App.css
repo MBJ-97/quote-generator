@@ -27,6 +27,8 @@
     flex-direction: column;
     border-radius: 10px;
     padding: 10px;
+    -webkit-box-shadow: 0px 0px 10px 3px #ffffff; 
+    box-shadow: 0px 0px 10px 3px #ffffff;
 
 }
 
@@ -44,7 +46,23 @@
     width: 210px;
     opacity: 1;
     border: none;
-    background: linear-gradient(to top left, #0400ff, #ff3d00);;
+    background: linear-gradient(to top left, #0400ff, #ff3d00);
+    color: #fff;
+  }
+
+  .share-btn {
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    height: 50px;
+    width: 210px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    font-family: 'Jost', sans-serif;
+
+
   }
     
   .button span {
@@ -97,4 +115,34 @@
       transform: translate3d(0, 0, 0) translateZ(0);
     }
   }  
-  
+
+
+/* Modal styles */
+
+.modal {
+  position: fixed;
+  /*width: 700px;*/
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content {
+  width: 500px;
+  background-color: #fff;
+}
+.modal-header, .modal-footer {
+  padding: 10px;
+}
+.modal-title {
+  margin: 0;
+}
+.modal-body {
+  padding: 10px;
+  border-top: 1px solid #eee;;
+  border-bottom: 1px solid #eee;
+}
