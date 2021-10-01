@@ -120,7 +120,6 @@
 /* Modal styles */
 
 .modal {
-  padding: 0 10px;
   position: fixed;
   left: 0;
   right: 0;
@@ -132,18 +131,45 @@
   justify-content: center;
 }
 .modal-content {
-  width: 500px;
+  width: 70%;
   background-color: #fff;
   padding: 0 10px;
+  text-align: center;
 }
 .modal-header, .modal-footer {
   padding: 10px;
+    
 }
+
+.modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
 .modal-title {
   margin: 0;
 }
 .modal-body {
-  padding: 10px;
   border-top: 1px solid #eee;;
   border-bottom: 1px solid #eee;
+  width: 100%;
+  text-align: center;
+}
+
+
+p {
+  padding: 0 5px;
+  max-width: 100%;
+  word-break: break-all !important;
+  white-space: normal;
+    text-align: justify;
+    -moz-text-align-last: center; /* Firefox 12+ */
+    text-align-last: center;
+    border: none;
+}
+
+.copy-btn {
+  background: linear-gradient(to top left, #000428, #004e92);
 }
